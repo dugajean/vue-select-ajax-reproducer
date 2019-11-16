@@ -1,5 +1,7 @@
 <template>
-  <InputField :search-handler="airportSearch" :options="origins" />
+  <div class="container">
+    <InputField :search-handler="airportSearch" :options="origins" />
+  </div>
 </template>
 
 <script>
@@ -22,3 +24,9 @@ export default createComponent({
   }
 })
 </script>
+
+<style scoped>
+  .container {
+    padding: 20px;
+  }
+</style>

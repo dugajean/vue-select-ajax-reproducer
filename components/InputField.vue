@@ -1,23 +1,27 @@
 <template>
-  <VSelect
-    :options="selectOptions"
-    :filterable="options.length > 0"
-    @search="searchHandler"
-  >
-    <template slot="no-options">
-      <p class="p-3">Start typing to find your result...</p>
-    </template>
-    <template slot="option" slot-scope="option">
-      <div class="d-center">
-        {{ option }}
-      </div>
-    </template>
-    <template slot="selected-option" slot-scope="option">
-      <div class="selected d-center">
-        {{ option }}
-      </div>
-    </template>
-  </VSelect>
+  <div>
+    <VSelect
+      :options="selectOptions"
+      :filterable="options.length > 0"
+      @search="searchHandler"
+    >
+      <template slot="no-options">
+        <p class="p-3">Start typing to find your result...</p>
+      </template>
+      <template slot="option" slot-scope="option">
+        <div class="d-center">
+          {{ option }}
+        </div>
+      </template>
+      <template slot="selected-option" slot-scope="option">
+        <div class="selected d-center">
+          {{ option }}
+        </div>
+      </template>
+    </VSelect>
+
+    {{ selectOptions }}
+  </div>
 </template>
 
 <script>
