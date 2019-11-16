@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="width: 300px">
     <VSelect
       :options="selectOptions"
       :filterable="options.length > 0"
