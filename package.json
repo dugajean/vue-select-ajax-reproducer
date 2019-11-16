@@ -1,0 +1,22 @@
+{
+  "name": "vue-select-ajax-reproducer",
+  "version": "1.0.0",
+  "description": "My divine Nuxt.js project",
+  "author": "Dukagjin Surdulli",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@u3u/vue-hooks": "^2.0.1",
+    "@vue/composition-api": "^0.3.2",
+    "airport-codes": "^1.0.2",
+    "lodash": "^4.17.15",
+    "nuxt": "^2.0.0",
+    "vue-select": "^3.2.0"
+  },
+  "devDependencies": {}
+}
