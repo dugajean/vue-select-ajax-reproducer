@@ -37,13 +37,7 @@ export default createComponent({
   props: ['searchHandler', 'options'],
 
   setup({ options }) {
-    const getterData = options
-
-    const getters = {
-      ...useGetters(...getterData)
-    }
-
-    const selectOptions = computed(() => getters[getterData[1][0]].value)
+    const selectOptions = computed(() => useGetters(...options)[options[1][0]].value)
 
     return { selectOptions }
   }
