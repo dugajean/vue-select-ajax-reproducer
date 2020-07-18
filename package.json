@@ -14,7 +14,7 @@
     "@u3u/vue-hooks": "^2.0.1",
     "@vue/composition-api": "^0.3.2",
     "airport-codes": "^1.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "nuxt": "^2.0.0",
     "vue-select": "^3.2.0"
   },
